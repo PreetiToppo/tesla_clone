@@ -2,10 +2,9 @@ import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
 
-
 function App() {
   return (
-    <div>
+    <div className="App">
       <Header />
       <Home />
     </div>
@@ -13,5 +12,3 @@ function App() {
 }
 
 export default App;
-
-
